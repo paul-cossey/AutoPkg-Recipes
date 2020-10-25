@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Comment</key>
+	<string>Created with Recipe Robot v2.0.0 (https://github.com/homebysix/recipe-robot)</string>
+	<key>Description</key>
+	<string>Downloads the latest version of betaflight-configurator.</string>
+	<key>Identifier</key>
+	<string>com.github.paul-cossey.download.betaflight-configurator</string>
+	<key>Input</key>
+	<dict>
+		<key>APP_FILENAME</key>
+		<string>Betaflight Configurator</string>
+		<key>NAME</key>
+		<string>betaflight-configurator</string>
+	</dict>
+	<key>MinimumVersion</key>
+	<string>1.0.0</string>
+	<key>Process</key>
+	<array>
+		<dict>
+			<key>Arguments</key>
+			<dict>
+				<key>filename</key>
+				<string>%NAME%.dmg</string>
+				<key>url</key>
+				<string>https://github-production-release-asset-2e65be.s3.amazonaws.com/60735171/78d33f80-ae6d-11ea-8868-1dc4ddfd51d0?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=AKIAIWNJYAX4CSVEH53A%2F20201025%2Fus-east-1%2Fs3%2Faws4_request&amp;X-Amz-Date=20201025T111945Z&amp;X-Amz-Expires=300&amp;X-Amz-Signature=f1e61b464aee8a46ccacb7f5850180aa2deef7e4eb0dffac7c6c56cb0861cc4a&amp;X-Amz-SignedHeaders=host&amp;actor_id=0&amp;key_id=0&amp;repo_id=60735171&amp;response-content-disposition=attachment%3B%20filename%3Dbetaflight-configurator_10.7.0_macOS.dmg&amp;response-content-type=application%2Foctet-stream</string>
+			</dict>
+			<key>Processor</key>
+			<string>URLDownloader</string>
+		</dict>
+		<dict>
+			<key>Processor</key>
+			<string>EndOfCheckPhase</string>
+		</dict>
+	</array>
+</dict>
+</plist>
