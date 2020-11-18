@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>Comment</key>
-	<string>Created with Recipe Robot v2.0.0 (https://github.com/homebysix/recipe-robot)</string>
+	<string>Created with Recipe Robot v2.1.0 (https://github.com/homebysix/recipe-robot)</string>
 	<key>Description</key>
 	<string>Downloads the latest version of betaflight-configurator and imports it into Munki.</string>
 	<key>Identifier</key>
@@ -23,9 +23,9 @@
 				<string>testing</string>
 			</array>
 			<key>description</key>
-			<string>Mikrotik configurator.</string>
+			<string>Cross platform configuration tool for the Betaflight firmware</string>
 			<key>developer</key>
-			<string></string>
+			<string>The Betaflight Open Source Flight Controller Firmware Project</string>
 			<key>display_name</key>
 			<string>betaflight-configurator</string>
 			<key>name</key>

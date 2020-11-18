@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>Comment</key>
-	<string>Created with Recipe Robot v2.0.0 (https://github.com/homebysix/recipe-robot)</string>
+	<string>Created with Recipe Robot v2.1.0 (https://github.com/homebysix/recipe-robot)</string>
 	<key>Description</key>
 	<string>Downloads the latest version of betaflight-configurator.</string>
 	<key>Identifier</key>
@@ -22,10 +22,19 @@
 		<dict>
 			<key>Arguments</key>
 			<dict>
+				<key>asset_regex</key>
+				<string>.*\.dmg$</string>
+				<key>github_repo</key>
+				<string>betaflight/betaflight-configurator</string>
+			</dict>
+			<key>Processor</key>
+			<string>GitHubReleasesInfoProvider</string>
+		</dict>
+		<dict>
+			<key>Arguments</key>
+			<dict>
 				<key>filename</key>
-				<string>%NAME%.dmg</string>
-				<key>url</key>
-				<string>https://github-production-release-asset-2e65be.s3.amazonaws.com/60735171/78d33f80-ae6d-11ea-8868-1dc4ddfd51d0?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=AKIAIWNJYAX4CSVEH53A%2F20201102%2Fus-east-1%2Fs3%2Faws4_request&amp;X-Amz-Date=20201102T164323Z&amp;X-Amz-Expires=300&amp;X-Amz-Signature=60a096a99e4a8e9035728bfa3057fcf3b3a3e9ad1f4c9403520863b3a9d62dbd&amp;X-Amz-SignedHeaders=host&amp;actor_id=16046272&amp;key_id=0&amp;repo_id=60735171&amp;response-content-disposition=attachment%3B%20filename%3Dbetaflight-configurator_10.7.0_macOS.dmg&amp;response-content-type=application%2Foctet-stream</string>
+				<string>%NAME%-%version%.dmg</string>
 			</dict>
 			<key>Processor</key>
 			<string>URLDownloader</string>
