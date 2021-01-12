@@ -11,7 +11,7 @@
 	<key>Input</key>
 	<dict>
 		<key>APP_FILENAME</key>
-		<string>Pd-0.51-3</string>
+		<string>Pd-0.51-4</string>
 		<key>NAME</key>
 		<string>Pd</string>
 	</dict>
@@ -38,7 +38,7 @@
 			<key>Arguments</key>
 			<dict>
 				<key>app_path</key>
-				<string>%RECIPE_CACHE_DIR%/%NAME%/Pd-0.51-3.app</string>
+				<string>%RECIPE_CACHE_DIR%/%NAME%/Pd-0.51-4.app</string>
 			</dict>
 			<key>Processor</key>
 			<string>AppPkgCreator</string>
