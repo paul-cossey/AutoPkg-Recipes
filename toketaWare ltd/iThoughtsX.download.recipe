@@ -13,7 +13,7 @@
 		<key>NAME</key>
 		<string>iThoughtsX</string>
 		<key>SPARKLE_FEED_URL</key>
-		<string>https://s3-eu-west-1.amazonaws.com/ithoughtsx/ithoughtsx.xml</string>
+		<string>https://cdn.toketaware.com?download=iThoughtsX.zip</string>
 	</dict>
 	<key>MinimumVersion</key>
 	<string>1.0.0</string>
