@@ -24,6 +24,10 @@
 				<string>%NAME%.zip</string>
 				<key>url</key>
 				<string>https://cdn.toketaware.com/?download=iThoughtsX.zip</string>
+				<key>curl_opts</key>
+                    			<array>
+                        			<string>--referer "https://www.toketaware.com;auto"</string>
+                    			</array>
 			</dict>
 			<key>Processor</key>
 			<string>URLDownloader</string>
