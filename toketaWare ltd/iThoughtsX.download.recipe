@@ -29,6 +29,7 @@
                         			<string>--referer "https://www.toketaware.com;auto"</string>
                     			</array>
 			</dict>
+		<dict>
 			<key>Processor</key>
 			<string>URLDownloader</string>
 		</dict>
